@@ -1,0 +1,30 @@
+canvas {
+    margin-top: 100px;
+    background-color: pink;
+    border-color: aqua;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {
+        box-shadow: 1px 1px 40px aqua;
+    }
+
+    to {
+        box-shadow: 1px 1px 40px purple;
+    }
+
+}h1{
+    color: blueviolet;
+}
+body{
+    background-position: center;
+}
+h2{
+    color:darkolivegreen
+}
+.copy_right_footer{
+    color: darkred;
+}
